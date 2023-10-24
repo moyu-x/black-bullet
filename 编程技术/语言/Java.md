@@ -1,6 +1,6 @@
 [[JVM]]
 [[JMM]]
-[ThreadLocal](编程技术/语言/Java/ThreadLocal.md)
+[ThreadLocal](Java/ThreadLocal.md)
 
 ---
 - 基本类型
