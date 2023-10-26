@@ -31,7 +31,7 @@ image.png
 
 在 Java 虚拟机规范中，局部变量区等价于一个数组，并且可以用正整数来索引。除了 long、double 值需要用两个数组单元来存储之外，其他基本类型以及引用类型的值均占用 一个数组单元。这种情况仅存在于局部变量，而并不会出现在存储于堆中的字段或者数组元素上。对 于 byte、char 以及 short 这三种类型的字段或者数组单元，它们在堆上占用的空间分别为 一字节、两字节，以及两字节，也就是说，跟这些类型的值域相吻合。
 
-boolean 字段和 boolean 数组则比较特殊。在 HotSpot 中，boolean 字段占用一字节， 而 boolean 数组则直接用 byte 数组来实现。为了保证堆中的 boolean 值是合法的， HotSpot 在存储时显式地进行掩码操作，也就是说，只取最后一位的值存入 boolean 字段 或数组中。
+boolean 字段和 boolean 数组则比较特殊。在 HotSpot 中，boolean 字段占用一字节，而 boolean 数组则直接用 byte 数组来实现。为了保证堆中的 boolean 值是合法的，HotSpot 在存储时显式地进行掩码操作，也就是说，只取最后一位的值存入 boolean 字段 或数组中。
 
 对于 boolean、char 这两个无符号类型来说，加载伴随着零扩展。对于 byte、short 这两个类型来说，加载伴随着符号扩展。
 
