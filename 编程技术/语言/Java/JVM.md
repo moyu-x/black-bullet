@@ -23,8 +23,6 @@ Java 虚拟机将运行时内存区域划分为五个部分，分别为方法区
 
 [![](https://idwangmo-notes.oss-cn-shanghai.aliyuncs.com/IMGS/20200208161227.png)](https://idwangmo-notes.oss-cn-shanghai.aliyuncs.com/IMGS/20200208161227.png)
 
-image.png
-
 一般我们计算得出的 NaN，比如说通过 +0.0F/+0.0F，在内存中应为 0x7FC00000。这个数值，我们称之为标准的 NaN，而其他的我们称之为不标准的 NaN。一般我们计算得出的 NaN，比如说通过 +0.0F/+0.0F，在内存中应为 0x7FC00000。这个数值，我们称之为标准的 NaN，而其他的我们称之为不标准的 NaN。
 
 对于供解释器使用的栈帧，主要由两个组成的部分，分布式局部变量区，以及字节码的操作数栈。
