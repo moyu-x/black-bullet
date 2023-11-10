@@ -3,7 +3,7 @@
 | 类型   | 代码示例                                   | 锁住的对象           |
 | ---- | -------------------------------------- | --------------- |
 | 普通方法 | synchronized void test() { }           | 当前对象            |
-| 静态方法 | synchronized static void test() { }    | 锁的是当前类的Class 对象 |
+| 静态方法 | synchronized static void test() { }    | 锁的是当前类的 Class 对象 |
 | 同步块  | void fun () { synchronized (this) {} } | 锁的是（）中的对象       |
 
 # 原理
@@ -36,7 +36,7 @@ public class VolatileTest {
 
 ## 轻量级锁
 
-基于CAS实现，当获取失败后，会进入一段时间的等待自选操作然后再获取锁，多次重试未成功就会升级为重量级锁
+基于 CAS 实现，当获取失败后，会进入一段时间的等待自选操作然后再获取锁，多次重试未成功就会升级为重量级锁
 
 ### 重量级锁
 
