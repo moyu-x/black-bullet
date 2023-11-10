@@ -25,3 +25,20 @@ sudo usermod -aG docker ${USER}
 ## 配置镜像加速
 
 https://gist.github.com/y0ngb1n/7e8f16af3242c7815e7ca2f0833d3ea6
+
+# Debian
+
+## 增加 sudo 用户
+
+Debian 12 对最简安装的用户管理进行了修改，所以可以根据如下方式进行增加
+
+```bash
+# 先下载sudo
+apt install sudo
+
+# 设置权限
+/usr/sbin/usermod -aG sudo ${USER}
+
+# 刷新权限
+getent group sudo
+```
