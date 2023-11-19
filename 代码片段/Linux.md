@@ -14,6 +14,18 @@ useradd -m -G wheel -s /bin/bash testuser  #wheel附加组可sudo，以root用�
 # dnf config-manager --add-repo _repository_URL_
 ```
 
+## SHA-1 的包不能安装
+
+ref: https://www.redhat.com/en/blog/rhel-security-sha-1-package-signatures-distrusted-rhel-9
+
+执行如下命令
+
+```bash
+update-crypto-policies --set DEFAULT:SHA1
+
+# 在包安装完成后，执行如下
+update-crypto-policies --set DEFAULT
+```
 # Docker
 
 ## 当前用户加入 docker 组
