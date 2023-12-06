@@ -54,3 +54,9 @@ apt install sudo
 # 刷新权限
 getent group sudo
 ```
+
+## 对于想查找不存在的命令
+
+```bash
+sudo apt install command-not-found
+```
