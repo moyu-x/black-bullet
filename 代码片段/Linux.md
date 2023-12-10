@@ -60,3 +60,7 @@ getent group sudo
 ```bash
 sudo apt install command-not-found
 ```
+
+## bash 补全位置
+
+`/usr/share/bash-completion/completions/`
