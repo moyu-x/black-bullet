@@ -64,3 +64,12 @@ sudo apt install command-not-found
 ## bash 补全位置
 
 `/usr/share/bash-completion/completions/`
+
+# SystemD
+
+[[利用Systemd挂载硬盘]]
+
+日志文件过大的解决办法可以参考如下配置：
+
+1. [linux logrotate 配置说明_logrotate 配置文件详解-CSDN 博客](https://blog.csdn.net/xiaojin21cen/article/details/122309230)
+2. [用 rsyslog 与 logrotate 管理日志 | Do you remember?](https://wbuntu.com/p/1243/)
