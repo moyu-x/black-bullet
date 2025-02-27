@@ -20,7 +20,7 @@
 
 方法一 （只有在 docker desktop 版本上支持）：
 
-![[assets/8cdddf75403bdeafb8d2cfbb6e532956_MD5.jpeg]]
+![[assets/c8bcc7352234d82191794572bee30ad6_MD5.jpeg]]
 
 方法二：连接到主机网络
 
