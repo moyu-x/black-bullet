@@ -51,15 +51,11 @@ https://csdiy.wiki/
 
 - [ ] 使用disruptor优化syslog的性能
 
-t.me/farrslgrpg
-
 
 # 一些需要读的博客
 
 https://www.cnblogs.com/studyios
 
-
-3  2  18
 # 需要研究下
 
 https://github.com/federicotorrielli/BetterWhisperX
