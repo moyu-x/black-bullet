@@ -1,0 +1,11 @@
+{
+  "Components@@CTA-BTN-enable": true,
+  "Components@@folder-font-bold": true,
+  "Components@@outline-enhanced": true,
+  "Appearance-light@@card-layout-open-light": true,
+  "Appearance-light@@theme-light-style-select": "theme-light-background-adapt",
+  "Appearance-dark@@card-layout-open-dark": true,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-brighter",
+  "Editor@@line-hover-indicator": true,
+  "Editor@@codeblock-style-select": "codeblock-style-solarized-light"
+}

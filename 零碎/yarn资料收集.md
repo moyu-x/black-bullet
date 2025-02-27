@@ -1,0 +1,1 @@
+[使用jdk17 搭建Hadoop3.3.5和Spark3.3.2 on Yarn集群模式_hadoop jdk17-CSDN博客](https://blog.csdn.net/qq_37354060/article/details/130100293)

@@ -1,0 +1,13 @@
+{
+  "newFileLocation": "current",
+  "attachmentFolderPath": "assets",
+  "alwaysUpdateLinks": true,
+  "spellcheck": false,
+  "showLineNumber": false,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
