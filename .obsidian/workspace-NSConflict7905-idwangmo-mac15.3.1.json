@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e6bdc20a8014b14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "edad7d3be7bf61aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试/常见面试题.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "常见面试题"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a1773bf06137632",
+    "type": "split",
+    "children": [
+      {
+        "id": "68b69d142a473467",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9e6785bd2657aa3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a0647f0cb81021a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "923e2a9b39a868d9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 226.5
+  },
+  "right": {
+    "id": "93a767843fe2bf13",
+    "type": "split",
+    "children": [
+      {
+        "id": "d07332a0bb9e24d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9623ad269c9647d1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "README 的反向链接列表"
+            }
+          },
+          {
+            "id": "ea7d01525404464f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "README 的出链列表"
+            }
+          },
+          {
+            "id": "c7a8a966cc764d96",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "333ff498c53a9887",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              },
+              "icon": "lucide-list",
+              "title": "README 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.3\r\nLocalize attachments (plugin folder)": false,
+      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "quickadd:QuickAdd": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "edad7d3be7bf61aa",
+  "lastOpenFiles": [
+    "assets/489870cc3140c46e96ba76803079ab5b_MD5.jpeg",
+    "assets/Pasted image 20250228185528.png",
+    "基础/X.509证书.md",
+    "面试/常见面试题.md",
+    "README.md",
+    "基础/JSONB.md",
+    "编程技术/分布式/Zookeeper分布式锁.md",
+    "面试/常见面试题.nssyncsc",
+    "面试/未命名.md",
+    "面试/未命名.nssyncsc",
+    "面试/000_坚果云闪电下载介绍.url.nssyncsc",
+    "面试",
+    "编程技术/分布式/RedLock.md",
+    "编程技术/分布式/Redis分布式锁.md",
+    "编程技术/数据库/AICD.md",
+    "编程技术/数据库/达梦的安装.md",
+    "编程技术/RPC/proto3.md",
+    "代码片段及问题/clickhouse问题.md",
+    "assets/c8bcc7352234d82191794572bee30ad6_MD5.jpeg",
+    "代码片段及问题/Clickhouse问题.md",
+    "assets/c8bcc7352234d82191794572bee30ad6_MD5.jpeg",
+    "零碎/yarn资料收集.md",
+    "零碎/YARN.md",
+    "零碎/PVE问题.md",
+    "资源推荐.md",
+    "读书笔记/Nginx cookbook.md",
+    "编程技术/垃圾回收/垃圾回收资料.md",
+    "编程技术/垃圾回收/垃圾回收算法.md",
+    "编程技术/垃圾回收/Go语言中的垃圾回收.md",
+    "编程技术/垃圾回收",
+    "编程技术/RPC/protobuf.md",
+    "大数据/一些概念.md",
+    "大数据",
+    "基础/网络/网卡.md",
+    "基础/网络/QUIC.md",
+    "前端",
+    "assets/c8bcc7352234d82191794572bee30ad6_MD5.jpeg",
+    "assets/84f7a47b3d9a14d8b7a117f0d265ddc1_MD5.jpeg",
+    "assets/6d87efd7ed4ed0bc5b767f59ca66796c_MD5.jpeg",
+    "assets/627b5a5a75c821c59e298db92a48990e_MD5.jpeg",
+    "assets/12b85b6b9898b2c6c2ff7e08584354f0_MD5.jpeg",
+    "assets/053ae683da614be7a595d0b6a272a584_MD5.jpeg",
+    "assets/Pasted image 20250226171743.png",
+    "基础/网络/未命名",
+    "零碎/yarn资料收集.nssyncsc",
+    "零碎/PVE问题.nssyncsc",
+    "未命名.canvas"
+  ]
+}
