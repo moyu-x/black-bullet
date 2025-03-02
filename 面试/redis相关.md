@@ -243,4 +243,4 @@ setnx+expire是两部操作，所以不要使用
 
 1. 使用lua脚本（在里面写setnx和expire两条指令)
 2. `SET key value[EX seconds][PX milliseconds][NX|XX]`在新版redis中使用
-3. 
+3. redlock算法：假设Redis的集群有5个节点，取当前的毫秒级时间戳，然后依次在所有节点中设置key，设置成功的误差不能太大，当3个节点(n/2-1)成功后，就相当于获取锁
