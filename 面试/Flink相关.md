@@ -19,4 +19,9 @@
 
 1. 最简单的也是最快速的：
 	1. 就是使用rockesdb来替换，但是这个之后rocksdb是所有节点共享的，当在整个flink作业中，存储的状态足够大的时候，能直接拖垮flink的计算
-	2. embeddedrocksdbstatebackend：将rocksdb嵌入到
+	2. embeddedrocksdbstatebackend：将rocksdb嵌入到每个执行的算子上去
+2. 很多大状态都是发生在flinksql上，使用windows的情况，所以最好就是用代码改写这部分的实现，根据业务保留具体的数据或者只记录数据的引用
+
+## 64k问题
+
+flinksql执行的本质是flink本身将flinksql当做一个dsl，然后通过这个去生成代码（而且还是单文件，然后如果这个sql比较复杂，生产的代码文件
