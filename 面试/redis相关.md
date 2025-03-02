@@ -168,4 +168,21 @@ Redis事务实现的一个核心结构是**事务队列**，当服务器以事�
 - 如果是`MULTI`、`EXEC`、`WATCH`和`DISCARD`其中的任意一个，服务器立刻执行
 - 如果不是上述的四个命令，那么服务器就会将其放入到一个事务队列中，然后向服务器返回`QUEUED`恢复，表示命令已经入队，等待执行
 
-redis的事务不支持回滚
+redis事务与传统事务的不同
+
+![[assets/bed77bd9ace00190e6d53c65d40d0432_MD5.jpeg]]
+
+![[assets/be2f5f6d7f3a19aca2a45603ad7f10c6_MD5.jpeg]]
+
+## 实现消息队列
+
+1. list 结构：基于 list 结构模拟消息队列
+2. pubsub：点对点消息模型
+3. stream：比较完善的消息队列模型
+
+### list的实现
+
+使用lpush发布消息，使用rpop消费数据，使用bpop进行拉去消息的阻塞
+
+### 基于pub-sub模式
+
