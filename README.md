@@ -27,7 +27,7 @@ https://www.bilibili.com/video/BV15y421h7j7
 - [ ] cmu 15-213
 - [ ] [操作系统：设计与实现 (2024 春季学期)](https://jyywiki.cn/OS/2024/?continueFlag=4ed16acad55037132efb52b616913f50)
 - [ ] 大模型应用开发极简入门——基于 GPT-4 与 ChatGPT
-- [ ] 李宏毅教授的新课【生成式 AI 導論 2024】www.youtube.com/watch?v=JGtqpQXfJis ​​​
+- [ ] [李宏毅教授的新课【生成式 AI 導論 2024】](https://www.youtube.com/watch?v=JGtqpQXfJis​)
 - [ ] NGINX Cookbook, 3rd Edition
 
 # 一些可以看的 up 主
