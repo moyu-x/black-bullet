@@ -30,7 +30,7 @@ Java 虚拟机将运行时内存区域划分为五个部分，分别为方法区
 
 ## 基本类型
 
-[![[assets/005657a33bbe5f80d5b05bba564d3896_MD5.jpg]]](https://idwangmo-notes.oss-cn-shanghai.aliyuncs.com/IMGS/20200208161227.png)
+[![[assets/0b5f8e962f6b046ef73b7bc619969049_MD5.jpg]]](https://idwangmo-notes.oss-cn-shanghai.aliyuncs.com/IMGS/20200208161227.png)
 
 一般我们计算得出的 NaN，比如说通过 +0.0F/+0.0F，在内存中应为 0x7FC00000。这个数值，我们称之为标准的 NaN，而其他的我们称之为不标准的 NaN。一般我们计算得出的 NaN，比如说通过 +0.0F/+0.0F，在内存中应为 0x7FC00000。这个数值，我们称之为标准的 NaN，而其他的我们称之为不标准的 NaN。
 
@@ -196,7 +196,7 @@ Java 虚拟机栈会出现两种错误：
 - 老生代(Old Generation)
 - 永生代(Permanent Generation)
 
-![[assets/7a7c0627e797486a1374f4e461e88681_MD5.jpeg]]
+![[assets/0148aca2837e7bbdf9df41fc5a7892f6_MD5.jpeg]]
 
 JDK 8 版本之后方法区（HotSpot 的永久代）被彻底移除了（JDK1.7 就已经开始了），取而代之是元空间，元空间使用的是直接内存。
 
@@ -219,7 +219,7 @@ JDK 8 版本之后方法区（HotSpot 的永久代）被彻底移除了（JDK1.7
 
 选择哪种内存分配方式由Java堆是否规整决定，而Java堆是否规整又由所采用的垃圾收集器是否带有压缩功能来决定
 
-![[assets/31be1caceaa0338c6ac23069c5b50a80_MD5.jpeg]]
+![[assets/a2620196519928527cf97cb283359f7a_MD5.jpeg]]
 
 Hotspot 虚拟机的对象头包括两部分信息，第一部分用于存储对象自身的运就”行时数据，另一部分是类型指针。实例数据部分是对象真正存储的有效信息，对齐填充部分不是必然存在的，也没有什么特别的含义，仅仅起占位作用
 
