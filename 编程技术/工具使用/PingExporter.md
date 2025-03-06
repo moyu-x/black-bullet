@@ -10,4 +10,4 @@
 ping_export www.baidu.com
 ```
 
-这样可以启动，或者是直接部署成system'd
+这样可以启动，或者是直接部署成 systemd 托管的服务
