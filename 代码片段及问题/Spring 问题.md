@@ -86,7 +86,7 @@ spring:  main:    allow-bean-definition-overriding: true
 
 在`Feign`使用`LocalDate`调用其他服务的接口时候，对方接口也是使用`LocalDate`进行接收的时候会报如下错误：
 
-![[assets/67c9a23ee57d4892edf99c9f86c19536_MD5.jpg]]
+![[assets/03c0ab4ac9e56b5ded49bad1197217cc_MD5.jpg]]
 
 image.png
 
