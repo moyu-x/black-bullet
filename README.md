@@ -59,3 +59,5 @@ https://www.cnblogs.com/studyios
 # 需要研究下
 
 https://github.com/federicotorrielli/BetterWhisperX
+
+https://draveness.me/
