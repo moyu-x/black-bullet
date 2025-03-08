@@ -8,3 +8,4 @@ Chain of Thought（思维链）
 
 ## Zero-Shot CoT
 
+它不需要提供具体的示例，而是简单地告诉模型要一步一步地思考，慢慢地推理。
