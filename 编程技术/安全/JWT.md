@@ -27,6 +27,15 @@ Authorization: Bearer <token>
 ```
 
 如果通过 HTTP 头部发送 JWT 令牌，应该尽量避免令牌过大。一些服务器不接受超过 8 KB 的头部。如果您试图在 JWT 令牌中嵌入过多信息，比如包含所有用户的权限，则可能需要替代解决方案
+
+## JWT 的验证
+
+验证确保令牌格式正确并包含可执行的声明，通常指的是检查 JWT 的结构、格式和内容
+
+## JWT的校验
+
+确认确保令牌是真实的且未被修改。涉及确认令牌的真实性和完整性
+
 ## ref：
 
 - [JSON Web Token Introduction - jwt.io](https://jwt.io/introduction)
