@@ -20,8 +20,13 @@ JSON Web Token（JWT）是一种轻量级、自包含的安全标准，用于在
 
 ## 使用
 
+通常在 Authorization 头中使用 Bearer 方案。头部的内容应该如下所示：
 
+```txt
+Authorization: Bearer <token>
+```
 
+如果通过 HTTP 头部发送 JWT 令牌，应该尽量避免令牌过大。一些服务器不接受超过 8 KB 的头部。如果您试图在 JWT 令牌中嵌入过多信息，比如包含所有用户的权限，则可能需要替代解决方案
 ## ref：
 
 - [JSON Web Token Introduction - jwt.io](https://jwt.io/introduction)
